@@ -45,7 +45,7 @@ public class GameManager : MonoBehaviour
             enemy.target = playerLocation;
         
             yield return new WaitForSeconds(spawnInterval);
-            spawnInterval -= 0.1f;
+            spawnInterval -= 0.05f;
         }
     }
 
